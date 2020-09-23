@@ -79,6 +79,6 @@
     }
   ]
     "url": "https://github.com/ZRTAssassin/ZRTAssassinSharedData",
-	"manifest": "",
-	"download": ""
+	"manifest": "https://github.com/ZRTAssassin/ZRTAssassinSharedData/releases/download/1.0.0/module.json",
+	"download": "https://github.com/ZRTAssassin/ZRTAssassinSharedData/releases/download/1.0.0/ZRTAssassinSharedData.rar"
  }
