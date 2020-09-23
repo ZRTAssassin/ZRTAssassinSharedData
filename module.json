@@ -1,6 +1,6 @@
 {   
    "name": "zrtassassinshareddata",   
-   "title": "ZRTAssassinSharedData",   
+   "title": "ZRTAssassin Shared Data",   
    "description": "Sharing data across worlds",   
    "version": "1.0.0",
    "author": "ZRTAssassin",
@@ -78,3 +78,4 @@
       "module": "SharedData"
     }
   ]
+}
