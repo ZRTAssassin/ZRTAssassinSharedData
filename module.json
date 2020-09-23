@@ -1,0 +1,81 @@
+{   
+   "name": "shareddata",   
+   "title": "Shared Data",   
+   "description": "Sharing data across worlds",   
+   "author": "ZRTAssassin",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.5.5",
+   "packs": [
+    {
+      "name": "items",
+      "label": "My Items",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+    {
+      "name": "monsters",
+      "label": "My Monsters",
+      "path": "packs/monsters.db",
+      "entity": "Actor",
+      "module": "SharedData"
+    },
+	{
+      "name": "players",
+      "label": "My Players",
+      "path": "packs/players.db",
+      "entity": "Actor",
+      "module": "SharedData"
+    },
+		{
+      "name": "macros",
+      "label": "My Macros",
+      "path": "packs/macros.db",
+      "entity": "Macro",
+      "module": "SharedData"
+    },
+    {
+      "name": "scenes",
+      "label": "My Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "SharedData"
+    },
+	{
+      "name": "equipment",
+      "label": "My Equipment",
+      "path": "packs/equipment.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+    {
+      "name": "spells",
+      "label": "My Spells",
+      "path": "packs/spells.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+    {
+      "name": "weapons",
+      "label": "My Weapons",
+      "path": "packs/weapons.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+	{
+      "name": "music",
+      "label": "My Music",
+      "path": "packs/playlists.db",
+      "entity": "Playlist",
+      "module": "SharedData"
+    },
+	{
+      "name": "journal",
+      "label": "My Journal Entries",
+      "path": "packs/journalentry.db",
+      "entity": "JournalEntry",
+      "module": "SharedData"
+    }
+  ]
+ }
