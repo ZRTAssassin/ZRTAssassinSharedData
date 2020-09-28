@@ -56,6 +56,13 @@
             "entity": "Item",
             "module": "SharedData"
         },
+		{
+            "name": "reflavoredspells",
+            "label": "My Spells",
+            "path": "packs/reflavoredspells.db",
+            "entity": "Item",
+            "module": "SharedData"
+        },
         {
             "name": "weapons",
             "label": "My Weapons",
