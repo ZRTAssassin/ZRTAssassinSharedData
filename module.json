@@ -51,14 +51,14 @@
         },
         {
             "name": "spells",
-            "label": "My Spells",
+            "label": "My Custom Spells",
             "path": "packs/spells.db",
             "entity": "Item",
             "module": "SharedData"
         },
 		{
             "name": "reflavoredspells",
-            "label": "My Spells",
+            "label": "My Reflavored Spells",
             "path": "packs/reflavoredspells.db",
             "entity": "Item",
             "module": "SharedData"
