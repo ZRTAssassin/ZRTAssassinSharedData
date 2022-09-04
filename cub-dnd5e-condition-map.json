@@ -1,0 +1,545 @@
+{
+  "system": "dnd5e",
+  "map": [
+    {
+      "id": "baned",
+      "name": "Baned",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Bane_2.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "blinded",
+      "name": "Blinded",
+      "icon": "modules/combat-utility-belt/icons/blinded.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.oScVqOHJt5SQszVl]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"oScVqOHJt5SQszVl\"><i class=\"fas fa-book-open\"></i> Blinded</a>",
+      "hidden": false
+    },
+    {
+      "id": "charmed",
+      "name": "Charmed",
+      "icon": "modules/combat-utility-belt/icons/charmed.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.UWlXFfSX95JVWrYs]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"UWlXFfSX95JVWrYs\"><i class=\"fas fa-book-open\"></i> Charmed</a>",
+      "hidden": false
+    },
+    {
+      "id": "compelled",
+      "name": "Compelled",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Compelled.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "concentrating",
+      "name": "Concentrating",
+      "icon": "modules/combat-utility-belt/icons/concentrating.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.nSoKejZfahbxfggp]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"nSoKejZfahbxfggp\"><i class=\"fas fa-book-open\"></i> Concentrating</a>",
+      "hidden": false
+    },
+    {
+      "id": "dead",
+      "name": "Dead",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Death.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "deafened",
+      "name": "Deafened",
+      "icon": "modules/combat-utility-belt/icons/deafened.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.p9CQYqWS7s4Abwqk]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"p9CQYqWS7s4Abwqk\"><i class=\"fas fa-book-open\"></i> Deafened</a>",
+      "hidden": false
+    },
+    {
+      "id": "exhaustion-1",
+      "name": "Exhaustion 1",
+      "icon": "modules/combat-utility-belt/icons/exhaustion1.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"4Z1Ins4wHUAWJal2\"><i class=\"fas fa-book-open\"></i> Exhaustion</a>",
+      "hidden": false
+    },
+    {
+      "id": "exhaustion-2",
+      "name": "Exhaustion 2",
+      "icon": "modules/combat-utility-belt/icons/exhaustion2.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"4Z1Ins4wHUAWJal2\"><i class=\"fas fa-book-open\"></i> Exhaustion</a>",
+      "hidden": false
+    },
+    {
+      "id": "exhaustion-3",
+      "name": "Exhaustion 3",
+      "icon": "modules/combat-utility-belt/icons/exhaustion3.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"4Z1Ins4wHUAWJal2\"><i class=\"fas fa-book-open\"></i> Exhaustion</a>",
+      "hidden": false
+    },
+    {
+      "id": "exhaustion-4",
+      "name": "Exhaustion 4",
+      "icon": "modules/combat-utility-belt/icons/exhaustion4.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"4Z1Ins4wHUAWJal2\"><i class=\"fas fa-book-open\"></i> Exhaustion</a>",
+      "hidden": false
+    },
+    {
+      "id": "exhaustion-5",
+      "name": "Exhaustion 5",
+      "icon": "modules/combat-utility-belt/icons/exhaustion5.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.4Z1Ins4wHUAWJal2]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"4Z1Ins4wHUAWJal2\"><i class=\"fas fa-book-open\"></i> Exhaustion</a>",
+      "hidden": false
+    },
+    {
+      "id": "frightened",
+      "name": "Frightened",
+      "icon": "modules/combat-utility-belt/icons/frightened.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.PTANb5kCweCv3Jna]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"PTANb5kCweCv3Jna\"><i class=\"fas fa-book-open\"></i> Frightened</a>",
+      "hidden": false
+    },
+    {
+      "id": "grappled",
+      "name": "Grappled",
+      "icon": "modules/combat-utility-belt/icons/grappled.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.qKqW3LJEQpJ7T3v8]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"qKqW3LJEQpJ7T3v8\"><i class=\"fas fa-book-open\"></i> Grappled</a>",
+      "hidden": false
+    },
+    {
+      "id": "hasted",
+      "name": "Hasted",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Haste.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "hexed",
+      "name": "Hexed",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Hexed.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "hunter's-marked",
+      "name": "Hunter's Marked",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_HMark.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "incapacitated",
+      "name": "Incapacitated",
+      "icon": "modules/combat-utility-belt/icons/incapacitated.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.hWk0QM9u7SUpd4BX]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"hWk0QM9u7SUpd4BX\"><i class=\"fas fa-book-open\"></i> Incapacitated</a>",
+      "hidden": false
+    },
+    {
+      "id": "inspired",
+      "name": "Inspired",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Inspired.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "invisible",
+      "name": "Invisible",
+      "icon": "modules/combat-utility-belt/icons/invisible.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.pSvtps6WHVAuWh9l]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"pSvtps6WHVAuWh9l\"><i class=\"fas fa-book-open\"></i> Invisible</a>",
+      "hidden": false
+    },
+    {
+      "id": "mocked",
+      "name": "Mocked",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Mocked.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "paralyzed",
+      "name": "Paralyzed",
+      "icon": "modules/combat-utility-belt/icons/paralyzed.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.o5oZVdHSWmceeFyx]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"o5oZVdHSWmceeFyx\"><i class=\"fas fa-book-open\"></i> Paralyzed</a>",
+      "hidden": false
+    },
+    {
+      "id": "petrified",
+      "name": "Petrified",
+      "icon": "modules/combat-utility-belt/icons/petrified.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.KaKNDyLeWRGqpBlc]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"KaKNDyLeWRGqpBlc\"><i class=\"fas fa-book-open\"></i> Petrified</a>",
+      "hidden": false
+    },
+    {
+      "id": "poisoned",
+      "name": "Poisoned",
+      "icon": "modules/combat-utility-belt/icons/poisoned.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.eJQ3ve6RTdjbNGEz]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"eJQ3ve6RTdjbNGEz\"><i class=\"fas fa-book-open\"></i> Poisoned</a>",
+      "hidden": false
+    },
+    {
+      "id": "prone",
+      "name": "Prone",
+      "icon": "modules/combat-utility-belt/icons/prone.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"ekm4TUHKT3QUPdPv\"><i class=\"fas fa-book-open\"></i> Prone</a>",
+      "hidden": false
+    },
+    {
+      "id": "restrained",
+      "name": "Restrained",
+      "icon": "modules/combat-utility-belt/icons/restrained.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.0mkU8eksNfwd1AZY]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"0mkU8eksNfwd1AZY\"><i class=\"fas fa-book-open\"></i> Restrained</a>",
+      "hidden": false
+    },
+    {
+      "id": "mfi4z476xllx62sp",
+      "name": "Shield of Faith",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Shield_of_Faith.png",
+      "referenceId": "@Item[x4AZG5PAIDOH35x3]{Shield of Faith}",
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-type=\"Item\" data-entity=\"Item\" data-id=\"x4AZG5PAIDOH35x3\"><i class=\"fas fa-suitcase\"></i> Shield of Faith</a>",
+      "hidden": false
+    },
+    {
+      "id": "slayer's-prey",
+      "name": "Slayer's Prey",
+      "icon": "modules/zrtassassinshareddata/images/module_icons/CUB/Icon_Slayers_Prey.png",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "",
+      "hidden": false
+    },
+    {
+      "id": "stunned",
+      "name": "Stunned",
+      "icon": "modules/combat-utility-belt/icons/stunned.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.IDLJEkgkdcnljtEW]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"IDLJEkgkdcnljtEW\"><i class=\"fas fa-book-open\"></i> Stunned</a>",
+      "hidden": false
+    },
+    {
+      "id": "unconscious",
+      "name": "Unconscious",
+      "icon": "icons/svg/unconscious.svg",
+      "referenceId": "@Compendium[combat-utility-belt.conditionsdnd5e.S499QUmXTVx81wk8]",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "isChanged": false,
+      "enrichedReference": "<a class=\"entity-link content-link\" draggable=\"true\" data-pack=\"combat-utility-belt.conditionsdnd5e\" data-id=\"S499QUmXTVx81wk8\"><i class=\"fas fa-book-open\"></i> Unconscious</a>",
+      "hidden": false
+    }
+  ]
+}
