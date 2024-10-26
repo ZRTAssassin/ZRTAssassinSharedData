@@ -1,0 +1,5 @@
+2024/10/17-20:22:04.921 b710 Delete type=3 #1
+2024/10/17-20:22:54.572 cc20 Level-0 table #5: started
+2024/10/17-20:22:54.576 cc20 Level-0 table #5: 6241 bytes OK
+2024/10/17-20:22:54.580 cc20 Delete type=0 #3
+2024/10/17-20:22:54.580 cc20 Manual compaction at level-0 from '!scenes!D17HaqZcViJsSpzY' @ 72057594037927935 : 1 .. '!scenes.tokens!D17HaqZcViJsSpzY.ii7NaqFkH0qdPZhP' @ 0 : 0; will stop at (end)
