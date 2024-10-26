@@ -1,5 +1,5 @@
 //we want to change the chat description of every action of every actor to the name of the action itself
-//
+//well, what we want to do now is put a secret block around it actually...
 
 let folderNamesToSearch = [
     "FolderName",

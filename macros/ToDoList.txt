@@ -1,0 +1,44 @@
+DM Tools:
+Write macro to surround the chat message of every actor with a secret, put in an ID to denote items that already have the secret
+Make the chat description be the secret instead
+
+Arbiter Automation:
+Research how to auto apply the healing to the target, and to subtract uses
+
+Token Auras:
+token auras toggle for player
+
+
+CR 1
+Wulg (1)
+Baby Basrios (1)
+Izuchi (1)
+Wroggi (1)
+Ludroth
+Young Kecha Wacha
+Vespoid Queen
+Gajau
+Rachnoi
+Baggi
+Boggi
+Iodrome
+Dodogama, Juvenile
+Girros
+Shamos
+Jaggia
+Velocidrome
+Gastodon
+
+CR 2
+Young Seregios (1, fly, remove fly speed)
+Bulldrome 
+Tobi-Kitachi
+Paolumu Pup
+Cephalos
+Great Baggi
+Gendrome
+Giadrome
+Great Jaggia
+Great Maccao
+Great Wroggi
+Rhenoplos
