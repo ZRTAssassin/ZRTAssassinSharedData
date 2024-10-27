@@ -2,10 +2,10 @@
 //well, what we want to do now is put a secret block around it actually...
 
 let folderNamesToSearch = [
-    "FolderName",
-    "ToAddMore",
-    "JustDoThis"
-    ];
+    "Test2",
+    // "ToAddMore",
+    // "JustDoThis"
+];
 let numActions = 0;
 for (let i = 0; i < folderNamesToSearch.length; i++) {
     const folder = folderNamesToSearch[i];
@@ -30,13 +30,21 @@ async function UpdateChatDescriptions(folderName) {
 
         const actionItems = actor.items.filter(x => ['weapon', 'feat', 'spell'].includes(x.type));
         console.log('actionItems', actionItems);
-        
+
         for (const item of actionItems) {
             console.log(`Action before update:`, item.system.description.chat);
-            
+
+            let secretStart = `
+            <div class="rd__b  rd__b--3">
+                <section class="secret" id="secret-sB9fQnloubPr15Qk">
+                    ${item.system.description.value}
+                </section>
+            </div>`;
+            //console.log(secretStart);
+
             // Update the chat description
             await item.update({
-                "system.description.chat": `<p></p>`
+                "system.description.chat": secretStart
             });
             // await item.update({
             //     "system.description.chat": `<p>${item.name}</p>`

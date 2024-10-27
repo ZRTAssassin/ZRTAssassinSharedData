@@ -3,10 +3,10 @@ Write macro to surround the chat message of every actor with a secret, put in an
 Make the chat description be the secret instead
 
 Arbiter Automation:
-Research how to auto apply the healing to the target, and to subtract uses
+Research how to auto apply the healing to the target, and to subtract uses //done
 
-Token Auras:
-token auras toggle for player
+Token Auras: 
+token auras toggle for player //done
 
 
 CR 1
