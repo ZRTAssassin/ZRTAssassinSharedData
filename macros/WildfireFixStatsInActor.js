@@ -6,9 +6,6 @@ const druidActorId = "hRM1mIEOrBkOxwkD";
 const druidActor = game.actors.get(druidActorId);
 
 if (druidActor) {
-    let chatContent = `<h3>Wildfire Spirit Updates</h3>`;
-    chatContent += `<p>Druid Level: ${druidActor.classes.druid.system.levels}</p>`;
-    chatContent += `<hr>`;
 
     const proficiencyBonus = druidActor.system.attributes.prof;
     const spellMod = druidActor.system.attributes.spellmod;
@@ -23,6 +20,14 @@ if (druidActor) {
         druidLevels: druidActor.classes.druid.system.levels,
         isEnhanced: false
     }
+
+    let chatContent = `<h3>Wildfire Spirit Updates</h3>`;
+    chatContent += `<p>Druid Level: ${parentActor.druidLevels}</p>`;
+    chatContent += `<p>Druid Proficiency Bonus: ${parentActor.proficiencyBonus}</p>`;
+    chatContent += `<p>Druid Spell Mod: ${parentActor.spellMod}</p>`;
+    chatContent += `<p>Druid Spell Attack Bonus: ${parentActor.spellAttackBonus}</p>`;
+    chatContent += `<p>Druid Spell Save DC: ${parentActor.spellSaveDC}</p>`;
+    chatContent += `<hr>`;
 
     // Update regular spirit and add to chat content
     chatContent += await UpdateSpirit(wildfireSpirit, parentActor);
