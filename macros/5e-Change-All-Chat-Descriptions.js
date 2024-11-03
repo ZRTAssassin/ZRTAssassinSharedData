@@ -2,7 +2,10 @@
 //well, what we want to do now is put a secret block around it actually...
 
 let folderNamesToSearch = [
-    "Test2",
+    "Challenges",
+    "For Later",
+    "Hunting Targets",
+    "Lizardfolk",
     // "ToAddMore",
     // "JustDoThis"
 ];
