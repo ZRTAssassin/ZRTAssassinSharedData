@@ -8,7 +8,7 @@
 
     let damageRollString = `4d6dl1`;
     let customContent = ``;
-    let damageRoll = await new Roll(damageRollString).roll();
+    let damageRoll = await new Roll(vitalSacrificeRoll).roll();
 
     console.log(damageRoll.result, damageRoll.total);
 if (damageRoll.total >= 18){
